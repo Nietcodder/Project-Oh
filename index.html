@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratham Test Prep</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-grid container">
+    <div class="hero-text">
+      <h1>Pratham Test Prep</h1>
+      <p>India’s Trusted Coaching for Competitive Exams & Career Success</p>
+      <a href="#contact" class="btn">Book Free Demo</a>
+    </div>
+
+    <div class="hero-visual">
+      <div class="blob"></div>
+      <div class="floating-card card1">
+        <h3>95% Success Rate</h3>
+        <p>Top Results Every Year</p>
+      </div>
+      <div class="floating-card card2">
+        <p>Expert Mentorship</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat">
+      <h3>5,000+</h3>
+      <p>Students Trained</p>
+    </div>
+    <div class="stat">
+      <h3>92%</h3>
+      <p>Success Rate</p>
+    </div>
+    <div class="stat">
+      <h3>10+</h3>
+      <p>Years of Experience</p>
+    </div>
+    <div class="stat">
+      <h3>200+</h3>
+      <p>Top Rankers</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>
+      Pratham Test Prep focuses on concept clarity, structured preparation,
+      and personal mentorship to help students perform confidently in
+      competitive exams.
+    </p>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="courses">
+  <div class="container">
+    <h2>Our Courses</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>IPMAT</h3>
+        <p>Complete preparation for IIM Indore & Rohtak.</p>
+        <a href="#contact" class="btn btn-sm">Enroll Now</a>
+      </div>
+      <div class="card">
+        <h3>CUET</h3>
+        <p>Structured syllabus with regular mock tests.</p>
+        <a href="#contact" class="btn btn-sm">Enroll Now</a>
+      </div>
+      <div class="card">
+        <h3>CLAT</h3>
+        <p>Expert guidance for law entrance exams.</p>
+        <a href="#contact" class="btn btn-sm">Enroll Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section>
+  <div class="container">
+    <h2>Why Choose Us</h2>
+    <ul class="features">
+      <li>✔ Personal Mentorship</li>
+      <li>✔ Proven Results</li>
+      <li>✔ Weekly Mock Tests</li>
+      <li>✔ Experienced Faculty</li>
+    </ul>
+  </div>
+</section>
+
+<section class="faculty">
+  <div class="container">
+    <h2>Learn From Experienced Faculty</h2>
+    <p class="faculty-text">
+      Our mentors come from top institutes with years of teaching
+      and real exam experience.
+    </p>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+  <div class="container">
+    <h2>Student Testimonials</h2>
+    <div class="testimonial-box">
+      “The mentors guided me personally and helped me crack IPMAT.”
+      <br><strong>— Rahul Sharma</strong>
+    </div>
+    <div class="testimonial-box">
+      “Best coaching experience with excellent mock tests.”
+      <br><strong>— Ananya Verma</strong>
+    </div>
+  </div>
+</section>
+
+<!-- CHATBOT BUTTON -->
+<button id="openChat" class="chat-open-btn">💬</button>
+
+<!-- CHATBOT BOX -->
+<div class="chatbot-container">
+  <div class="chat-header">
+    <span>Pratham AI Assistant</span>
+    <button id="closeChat">✖</button>
+  </div>
+
+  <div class="chat-body" id="chatMessages">
+    <div class="bot-msg">
+      Hi 👋 How can I help you today?
+    </div>
+  </div>
+
+  <div class="chat-footer">
+    <input type="text" id="userInput" placeholder="Type your message..." />
+    <button id="sendMsg">Send</button>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <form id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required />
+      <input type="email" id="email" name="email" placeholder="Email Address" required />
+      <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
+      <textarea id="message" name="message" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn">Get a Call Back</button>
+      <p id="formMsg"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Pratham Test Prep</p>
+  <div>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">LinkedIn</a>
+  </div>
+</footer>
+
+<!-- EMAILJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function () { emailjs.init("BkwxEn7Il23Pm2yDJ"); })();
+</script>
+<script src="script.js"></script>
+</body>
+</html>
